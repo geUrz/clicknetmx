@@ -1,0 +1,7 @@
+export * from './TopBar'
+export * from './Footer'
+export * from './Whatsapp'
+export * from './TitlePage'
+export * from './BannerStatic'
+export * from './Loading'
+export * from './ArrowBack'

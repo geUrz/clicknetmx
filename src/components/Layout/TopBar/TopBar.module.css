@@ -1,0 +1,155 @@
+.topBar{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 100; 
+}
+
+.containerSearch{
+  width: 100%;
+  height: auto;
+}
+
+.containerMenu{
+  padding: 0px;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(9, 60, 94, .95);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img{
+  height: 30px;
+  cursor: pointer;
+}
+
+.iconBar{
+  margin-right: 10px;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.iconBar svg, .iconBar svg path{
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.iconBar svg:hover path{
+  color: white;
+}
+
+.containerMenuSide{
+  width: 50%;
+  max-width: 230px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(9, 60, 94, .95);
+  transition: all .25s;
+  z-index: 1000;
+}
+
+.topMenuSide{
+  padding: 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.topMenuSide:hover{
+  background-color: white;
+}
+
+.topMenuSide svg, .topMenuSide path{
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.topMenuSide:hover svg, .topMenuSide:hover path{
+  color: rgb(9, 60, 94);;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+
+.listaMenuSide div{
+  padding: 12px;
+  width: 100%;
+  height: auto;
+  color: white;
+  font-size: small;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.listaMenuSide div:hover{
+  color: rgb(9, 60, 94, .95);
+  background-color: white;
+}
+
+.menu{
+  display: none;
+}
+
+.menu svg, .menu path{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 780px){
+
+  .logo img{
+    height: 55px;
+  }
+
+  .iconBar{
+    display: none;
+  }
+
+  .menu{
+    width: 55%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  
+  .menu a{
+    padding: 20px 15px;
+    font-size: small;
+    color: azure;
+    cursor: pointer;
+  }
+  
+  .menu a:hover, .menu a:hover svg, .menu a:hover path{
+    border-bottom: 1px solid;
+    color: darkgoldenrod;
+  }
+
+}
+
