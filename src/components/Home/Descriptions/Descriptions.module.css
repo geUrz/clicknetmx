@@ -1,0 +1,36 @@
+.section{
+  padding: 50px 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section div{
+  margin: 20px;
+  width: 320px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section svg, .section path{
+  font-size: 60px;
+  color: var(--color-2);
+}
+
+.section p{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  color: gray;
+}
+
+.section span{
+  font-weight: 600 !important;
+  color: var(--color-1);
+}

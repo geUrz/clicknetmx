@@ -25,14 +25,14 @@
 }
 
 .logo{
-  margin-left: 10px;
+  margin-left: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .logo img{
-  height: 30px;
+  height: 28px;
   cursor: pointer;
 }
 
@@ -45,7 +45,7 @@
 } 
 
 .iconBar svg, .iconBar svg path{
-  font-size: 20px;
+  font-size: 25px;
   color: white;
   cursor: pointer;
 }
@@ -82,24 +82,21 @@
 
 .topMenuSide svg, .topMenuSide path{
   color: white;
-  font-size: 22px;
+  font-size: 25px;
   cursor: pointer;
 }
 
 .topMenuSide:hover svg, .topMenuSide:hover path{
-  color: rgb(9, 60, 94);;
-  font-size: 22px;
+  color: rgb(9, 60, 94);
   cursor: pointer;
 }
-
 
 .listaMenuSide div{
   padding: 12px;
   width: 100%;
   height: auto;
   color: white;
-  font-size: small;
-  font-weight: 200;
+  font-size: 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;

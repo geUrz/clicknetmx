@@ -8,37 +8,54 @@
 }
 
 .title{
+  padding: 50px 0;
   width: 100%;
-  height: 100px;
+  height: auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;  
 }
 
 .title h1{
+  font-size: 25px;
+  font-family: 'Bebas' !important;
+  color: black;  
+}
+
+.title span{
+  font-size: 30px;
   font-family: 'Bebas' !important;
   color: var(--color-2);  
 }
 
+.title h2{
+  font-size: 22px;
+  font-family: 'Bebas' !important;
+  color:black;  
+}
+
 .mainBox{
+  padding: 50px 0;
   width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  background-color: aliceblue;
 }
 
 .box{
   margin: 10px;
-  width: 150px;
+  width: 170px;
   height: 280px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-1);
-  border-radius: 10% ;
+  background-color: var(--color-1); 
+  border-radius: 5% ;
 }
 
 .box div:nth-child(1){
@@ -52,6 +69,8 @@
 
 .box div:nth-child(1) h2{
   font-size: 20px;
+  font-weight: 600 !important;
+  color: white;
 }
 
 .box div:nth-child(2){
@@ -76,9 +95,11 @@
 
 .box div:nth-child(3) h1{
   font-size: 20px;
+  font-weight: 600 !important;
+  color: white;
 }
 
-.semana{
+.conditions{
   margin-top: 30px;
   width: 100%;
   height: auto;
@@ -88,12 +109,7 @@
   justify-content: center;
 }
 
-.semana h1{
-  font-family: 'Bebas' !important;
-  color: var(--color-2);
-}
-
-.semana p{
+.conditions p{
   font-size: 16px;
   color: var(--color-1);
 }

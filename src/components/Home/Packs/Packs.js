@@ -5,7 +5,8 @@ export function Packs() {
 
     <div className={styles.section}>
       <div className={styles.title}>
-        <h1>Paquetes Residenciales</h1>
+        <h1>¡ <span>1</span> mes de prueba <span>GRATIS</span> !</h1>
+        <h2>al contratar cualquiera de nuestros paquetes</h2>
       </div>
       <div className={styles.mainBox}>
         <div className={styles.box}>
@@ -47,11 +48,11 @@ export function Packs() {
             <h1>al mes</h1>
           </div>
         </div>
-      </div>
-      <div className={styles.semana}>
-        <h1>¡ 1 semana de prueba GRATIS !</h1>
+        <div className={styles.conditions}>
         <p>*No incluye costos de instalación</p>
       </div>
+      </div>
+      
     </div>
   
   )
