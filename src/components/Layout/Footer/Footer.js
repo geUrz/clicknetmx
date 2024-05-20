@@ -16,18 +16,18 @@ export function Footer(props) {
           <div>
             <div className={styles.containerUbicacion}>
               <FaMapMarkerAlt />
-              <h4>Calz. Cuauhtémoc 1086-local 3,</h4>
-              <h4>Prohogar, 21240 Mexicali, B.C.</h4>
+              <h4>Punta Este Corporativo,</h4>
+              <h4>Piso 10, 21240 Mexicali, B.C.</h4>
             </div>
             <div className={styles.containerSiguenos}>
               <div className={styles.titleSiguenos}>
                 <h4>¡ Síguenos en nuestras redes sociales !</h4>
               </div>
               <div className={styles.boxSiguenos}>
-                <Link target='blank' href='https://facebook.com/vocalcoachescueladecanto/'>
+                <Link target='blank' href='https://facebook.com/clicknetmx/'>
                   <FaFacebook />
                 </Link>
-                <Link target='blank' href='https://facebook.com/vocalcoachescueladecanto/'>
+                <Link target='blank' href='https://facebook.com/clicknetmx/'>
                   <FaInstagram />
                 </Link>
               </div>

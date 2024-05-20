@@ -1,7 +1,7 @@
 import { BasicLayout } from "@/layouts"
 import styles from './home.module.css'
 import { BannerStatic, Footer } from "@/components/Layout"
-import { Packs, Descriptions } from "@/components/Home"
+import { Packs, Descriptions, ServicesBanner } from "@/components/Home"
 
 export default function Home() {
 
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <BasicLayout relative>
 
-      <BannerStatic />
+      <BannerStatic imgName = '/img/wallpaper/wallpaper.png' />
 
       <div className={styles.sectionMain} style={{background : false ? 'azure' : ''}}>
         <div className={styles.containerMain}>
@@ -18,6 +18,9 @@ export default function Home() {
           <Packs />
 
           <Descriptions />
+
+          <ServicesBanner />
+
         </div>
       </div>
 
