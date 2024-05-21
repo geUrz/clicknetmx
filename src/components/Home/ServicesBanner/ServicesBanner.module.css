@@ -66,10 +66,35 @@
 }
 
 
-@media screen and (min-width: 680px){
+@media screen and (min-width: 920px){
 
-  .section{
-    margin-bottom: 150px;
+  .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title h1{
+    font-size: 45px;
+  }
+  
+  .title h2{
+    margin: 0 5px !important;
+    font-size: 45px;
+  }
+  
+  .title h1:nth-child(3){
+    font-size: 55px;
+  }
+
+  .services div{
+    margin: 0 20px;
+    width: 75px;
+    height: 75px;
+  }
+
+  .services svg, .services path{
+    font-size: 35px;
   }
 
 }

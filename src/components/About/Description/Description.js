@@ -9,7 +9,7 @@ export function Description() {
         <Image src='/img/logo2.png' alt='Logo' />
       </div>
       <div className={styles.description}>
-        <p>Somos una empresa proveedora de servicios de internet(ISP) </p>
+        <p>Somos una empresa proveedora de servicios de internet(ISP)</p>
       </div>
     </div>
 

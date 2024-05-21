@@ -32,8 +32,11 @@ export function TopBar() {
           <Link href='/services'>
             Servicios
           </Link>
+          <Link href='/blog'>
+            Blog
+          </Link>
           <Link href='/about'>
-            Quienes somos ?
+            Quiénes somos ?
           </Link>
         </div>
 
@@ -71,7 +74,7 @@ export function TopBar() {
             <Link href='/about'>
               <div onClick={menuOpen}>
                 <FaAddressBook />
-                Quienes somos ?
+                Quiénes somos?
               </div>
             </Link>
           </div>

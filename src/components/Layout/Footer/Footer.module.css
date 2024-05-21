@@ -1,21 +1,21 @@
 .containerFooter{
   width: 100%;
-  height: auto;
+  height: 400px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   position: relative;
   background-color: var(--color-1);
 }
 
 .containerFooter > div{
+  margin-top: 50px;
   width: 100%;
-  height: 300px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: relative;
 }
 
 .containerUbicacion, .containerSiguenos{
@@ -74,7 +74,7 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: 20px;
+  bottom: 90px;
 }
 
 .copy h4{
@@ -85,7 +85,7 @@
 @media screen and (min-width: 800px){
 
   .containerFooter > div{
-    height: 400px;
+    
   }
 
   .containerUbicacion img{

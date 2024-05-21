@@ -5,25 +5,23 @@ import styles from './home.module.css'
 
 export default function Home() {
 
-  
+
 
   return (
     <BasicLayout relative>
 
-      <BannerStatic imgName = '/img/wallpaper/wallpaper.png' />
+      <BannerStatic imgName='/img/wallpaper/wallpaper.png' />
 
-      <div className={styles.sectionMain} style={{background : false ? 'azure' : ''}}>
-        <div className={styles.containerMain}>
-          
-          <Packs />
+      <div className={styles.sectionMain} style={{ background: false ? 'azure' : '' }}>
 
-          <Descriptions />
+        <Packs />
 
-          <ServicesBanner />
+        <Descriptions />
 
-          <Coments />
+        <ServicesBanner />
 
-        </div>
+        <Coments />
+
       </div>
 
     </BasicLayout>

@@ -1,14 +1,16 @@
 import { BasicLayout } from '@/layouts'
-import { BannerStatic } from '@/components/Layout'
-import styles from './about.module.css'
 import { Description } from '@/components/About'
+import { Image } from 'semantic-ui-react'
+import styles from './about.module.css'
 
 export default function About() {
   return (
-    
+
     <BasicLayout relative>
 
-      <BannerStatic imgName='/img/wallpaper/w2.jpg' />
+      <div className={styles.containerBanner}>
+        <Image src='./img/wallpaper/w2.png' />
+      </div>
 
       <Description />
 

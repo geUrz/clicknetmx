@@ -9,12 +9,27 @@
 }
 
 .boxCard{
-  width: 350px;
+  width: 100%;
+  max-width: 800px;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (min-width: 1020px){
+
+  .section{
+    margin: 80px 0;
+  }
+
+  .boxCard{
+    max-width: 1300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
 }
 
 

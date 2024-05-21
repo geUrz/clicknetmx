@@ -8,7 +8,7 @@ export function Whatsapp() {
   
     <div className={styles.iconWhats}>
       <Link href='https://wa.me/526861349399' target='_blank'>
-        <FaWhatsapp />
+        <FaWhatsapp /> Contratar un servicio
       </Link>
     </div>
   

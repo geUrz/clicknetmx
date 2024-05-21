@@ -1,4 +1,5 @@
 .section{
+  padding: 50px 0 80px 0;
   width: 100%;
   height: auto;
   display: flex;
@@ -8,7 +9,6 @@
 }
 
 .logo{
-  padding: 50px 0;
   width: 100%;
   height: auto;
   display: flex;
@@ -22,7 +22,7 @@
 
 .description{
   padding: 0 10px;
-  margin-bottom: 80px;
+  margin-top: 10px;
   width: 100%;
   height: auto;
   display: flex;
@@ -33,4 +33,16 @@
 .description p{
   font-size: 18px;
   color: gray;
+}
+
+@media screen and (min-width: 1020px){
+
+  .section{
+    padding: 80px 0;
+  }
+
+  .logo img{
+    width: 200px;
+  }
+
 }
