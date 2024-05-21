@@ -1,7 +1,7 @@
 import { BasicLayout } from "@/layouts"
+import { BannerStatic } from "@/components/Layout"
+import { Packs, Descriptions, ServicesBanner, Coments } from "@/components/Home"
 import styles from './home.module.css'
-import { BannerStatic, Footer } from "@/components/Layout"
-import { Packs, Descriptions, ServicesBanner } from "@/components/Home"
 
 export default function Home() {
 
@@ -20,6 +20,8 @@ export default function Home() {
           <Descriptions />
 
           <ServicesBanner />
+
+          <Coments />
 
         </div>
       </div>

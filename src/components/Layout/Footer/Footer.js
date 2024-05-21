@@ -16,8 +16,10 @@ export function Footer(props) {
           <div>
             <div className={styles.containerUbicacion}>
               <FaMapMarkerAlt />
-              <h4>Punta Este Corporativo,</h4>
-              <h4>Piso 10, 21240 Mexicali, B.C.</h4>
+              <h4>Punta Este Corporativo</h4>
+              <h4>Calzada Carranza 951, Piso 10</h4>
+              <h4>Suite 304, Interior "E"</h4>
+              <h4>21259 Mexicali, B.C.</h4>
             </div>
             <div className={styles.containerSiguenos}>
               <div className={styles.titleSiguenos}>

@@ -99,13 +99,18 @@
   font-size: 14px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   cursor: pointer;
 }
 
 .listaMenuSide div:hover{
   color: rgb(9, 60, 94, .95);
   background-color: white;
+}
+
+.listaMenuSide svg, .listaMenuSide path{
+  margin-right: 10px;
+  font-size: 16px;
 }
 
 .menu{

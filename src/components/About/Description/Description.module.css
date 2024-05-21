@@ -1,0 +1,36 @@
+.section{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+  padding: 50px 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img{
+  width: 150px;
+}
+
+.description{
+  padding: 0 10px;
+  margin-bottom: 80px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description p{
+  font-size: 18px;
+  color: gray;
+}

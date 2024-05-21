@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react"
 import { map } from "lodash"
 import Slider from "react-slick"
-import { Coments as Coment } from "@/api"
-import styles from './Coments..module.css'
+//import { Coments as Coment } from "@/api"
 import { FaComments } from "react-icons/fa"
+import styles from './Coments.module.css'
 
-const ctrlSlideComents = new Coment()
+//const ctrlSlideComents = new Coment()
 
 export function Coments() {
 
@@ -50,8 +50,7 @@ export function Coments() {
     
       <div className={styles.containerSlideMobile}>
         <div className={styles.boxComentsLetter}>
-          <h2>Comentarios de nuestros</h2>
-          <h1>clientes</h1>
+          <h1>Comentarios de nuestros clientes</h1>
         </div>
         <Slider {...settingsMobile}>
           {map(slideComents, (slideComent) => (
@@ -78,7 +77,7 @@ export function Coments() {
             </div>
           ))}
         </Slider>
-      </div>
+      </div> 
 
     </>
 

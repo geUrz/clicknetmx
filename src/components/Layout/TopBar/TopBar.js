@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { Image } from 'semantic-ui-react'
-import { FaBars, FaHome, FaTimes } from 'react-icons/fa'
+import { FaAddressBook, FaBars, FaFileAlt, FaHome, FaTimes, FaTools } from 'react-icons/fa'
 import styles from './TopBar.module.css'
 
 
@@ -32,11 +32,8 @@ export function TopBar() {
           <Link href='/services'>
             Servicios
           </Link>
-          <Link href='/products'>
-            Productos
-          </Link>
           <Link href='/about'>
-            Nosotros
+            Quienes somos ?
           </Link>
         </div>
 
@@ -61,18 +58,20 @@ export function TopBar() {
           <div className={styles.listaMenuSide}>
             <Link href='/services'>
               <div onClick={menuOpen}>
-                <FaHome />
+                <FaTools />
                 Servicios
               </div>
             </Link>
-            <Link href='/products'>
+            <Link href='/blog'>
               <div onClick={menuOpen}>
-                Productos
+                <FaFileAlt />
+                Blog
               </div>
             </Link>
             <Link href='/about'>
               <div onClick={menuOpen}>
-                Nosotros
+                <FaAddressBook />
+                Quienes somos ?
               </div>
             </Link>
           </div>
