@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { Card } from '../Card'
+import { CardB } from '../CardB'
+import { CardS } from '../CardS'
 import styles from './Descriptions.module.css'
-import { CardBl } from '../CardBl'
-import { CardOr } from '../CardOr'
 
 export function Descriptions() {
 
@@ -10,59 +10,94 @@ export function Descriptions() {
     <div className={styles.section}>
       <div className={styles.boxCard}>
 
-        <CardBl
+        <Card
+          img='/img/services/antena/antena.webp'
           titulo='Internet y redes'
           description='Configuración y optimización de redes locales para que cualquier equipo que se conecte a internet funcione correctamente y el WiFi cubra las zonas donde se necesite.'
+          link='/services/internet-y-redes'
         />
 
-        <CardOr
+        <Card
+          img='/img/services/cable/cable.webp'
           titulo='Cableado estructurado'
           description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
+          link='/services/cableado-estructurado'
         />
 
-        <CardBl
+        <Card
+          img='/img/services/canal/canal.webp'
           titulo='Canalización y tubería'
-          description='Instalación de canaletas de PVC, canastillas, tubería de PVC y tubería steel para que el cableado este mas organizado y protegido y asi garantizar su durabilidad por mucho tiempo.'
+          description='Configuración y optimización de redes locales para que cualquier equipo que se conecte a internet funcione correctamente y el WiFi cubra las zonas donde se necesite.'
+          link='/services/canalizacion-y-tuberia'
         />
 
-        <CardOr
+        <CardS
+          img='/img/services/cam/cam.webp'
           titulo='Cámaras de vigilancia'
-          description='Instalación de cámaras de vigilancia para detección de rostros, placas de automóvil o según la necesidad del perímetro, todo monitorizado desde una app móvil.'
+          description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
+          link='/services/camaras'
         />
 
-        <CardBl
+        <CardS
+          img='/img/services/alarma/alarma.webp'
           titulo='Alarma de seguridad'
-          description='Instalación de alarma de seguridad para detectar incendios, fuga de gas y la intrusion de personas no autorizadas, todo monitorizado desde una app móvil.'
+          description='Configuración y optimización de redes locales para que cualquier equipo que se conecte a internet funcione correctamente y el WiFi cubra las zonas donde se necesite.'
+          link='/services/alarma'
         />
 
-        <CardOr
+        <CardS
+          img='/img/services/control/control.webp'
           titulo='Control de acceso'
-          description='Instalación de control de acceso para personal y vehículos, configuración para autorizar o limitar la entrada a casas, oficinas y residenciales.'
+          description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
+          link='/services/control-de-acceso'
         />
 
-        <CardBl
+        <CardB
+          img='/img/services/yonusa.webp'
           titulo='Cerco electrificado'
-          description='Instalación de cerco eléctrico para protección del perímetro de cualquier predio, cuenta con un sistema disuasivo para desistir con el acceso, monitorizado desde app móvil.'
+          description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
+          link='/services/antena'
         />
 
-        <CardOr
+        <CardB
+          img='/img/services/bocina.webp'
           titulo='Audio ambiental'
-          description='Instalación de audio ambiental para casas, oficinas y restaurantes, mantiene el espacio con música ambiente sin ser molesto para los visitantes.'
+          description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
+          link='/services/antena'
         />
 
-        <CardBl
-          titulo='Cerco electrificado'
-          description='Instalación de cerco eléctrico para protección del perímetro de cualquier predio, cuenta con un sistema disuasivo para desistir con el acceso, monitorizado desde app móvil.'
-        />
-
-        <CardOr
+        <CardB
+          img='/img/services/'
           titulo='Automatización de equipos eléctricos'
-          description='Instalación de audio ambiental para casas, oficinas y restaurantes, mantiene el espacio con música ambiente sin ser molesto para los visitantes.'
+          description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
+          link='/services/antena'
         />
 
-        <CardBl
+        {/* <Card
+          img='/img/services/'
           titulo='Sensor para equipos eléctricos'
-          description='Instalación de cerco eléctrico para protección del perímetro de cualquier predio, cuenta con un sistema disuasivo para desistir con el acceso, monitorizado desde app móvil.'
+          description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
+        /> */}
+
+        <CardB
+          img='/img/services/cam.webp'
+          titulo='Cámaras de vigilancia'
+          description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
+          link='/services/antena'
+        />
+
+        <CardB
+          img='/img/services/alarm.webp'
+          titulo='Alarma de seguridad'
+          description='Configuración y optimización de redes locales para que cualquier equipo que se conecte a internet funcione correctamente y el WiFi cubra las zonas donde se necesite.'
+          link='/services/antena'
+        />
+
+        <CardB
+          img='/img/services/yonusa.webp'
+          titulo='Control de acceso'
+          description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
+          link='/services/antena'
         />
 
       </div>
