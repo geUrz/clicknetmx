@@ -53,17 +53,17 @@ export function Descriptions() {
         />
 
         <CardB
-          img='/img/services/yonusa.webp'
+          img='/img/services//cerco/cerco.webp'
           titulo='Cerco electrificado'
           description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
-          link='/services/antena'
+          link='/services/cerco-electrificado'
         />
 
         <CardB
-          img='/img/services/bocina.webp'
+          img='/img/services/bocina/bocina.webp'
           titulo='Audio ambiental'
           description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
-          link='/services/antena'
+          link='/services/audio-ambiental'
         />
 
         <CardB
@@ -82,20 +82,6 @@ export function Descriptions() {
         <CardB
           img='/img/services/cam.webp'
           titulo='Cámaras de vigilancia'
-          description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
-          link='/services/antena'
-        />
-
-        <CardB
-          img='/img/services/alarm.webp'
-          titulo='Alarma de seguridad'
-          description='Configuración y optimización de redes locales para que cualquier equipo que se conecte a internet funcione correctamente y el WiFi cubra las zonas donde se necesite.'
-          link='/services/antena'
-        />
-
-        <CardB
-          img='/img/services/yonusa.webp'
-          titulo='Control de acceso'
           description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
           link='/services/antena'
         />
