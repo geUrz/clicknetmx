@@ -18,28 +18,6 @@
   justify-content: center;
 }
 
-.arrowLeft{
-  width: 300px;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-
-.arrowLeft svg, .arrowLeft path{
-  font-size: 25px;
-  color: gray;
-  cursor: pointer;
-}
-
-.arrowLeft h3{
-  font-size: 14px;
-  color: gray;
-}
-
 .img img{
   height: 250px;
 }
@@ -104,10 +82,11 @@
   }
 
   .img{
+    margin-top: 60px;
     width: 35%;
     height: auto;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
   }
 

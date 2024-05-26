@@ -8,8 +8,8 @@ export default function ControldeAcceso() {
     <BasicLayout relative>
 
       <Service
-        link1='Servicios'
-        link2='Control de acceso'
+        services='Servicios'
+        service='Control de acceso'
 
         img='/img/services/control/controlkit.webp' 
 

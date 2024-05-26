@@ -7,8 +7,8 @@ export default function Alarma() {
     <BasicLayout relative>
 
       <Service
-        link1='Servicios'
-        link2='Alarma'
+        services='Servicios'
+        service='Alarma'
 
         img='/img/services/alarma/alarmakit.webp' 
 

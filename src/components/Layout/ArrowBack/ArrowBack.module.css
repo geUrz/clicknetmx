@@ -1,21 +1,21 @@
-.iconArrow{
+.arrowLeft{
+  width: 300px;
+  height: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   position: absolute;
-  top: 110px;
-  left: 10px;
+  top: 20px;
+  left: 20px;
+}
+
+.arrowLeft svg, .arrowLeft path{
+  font-size: 25px;
+  color: gray;
   cursor: pointer;
 }
 
-.iconArrow svg, .iconArrow path{
-  font-size: 18px;
-  cursor: pointer;
-}
-
-.iconArrow h1{
-  margin-left: 10px;
-  color: goldenrod;
-  font-size: 14.5px;
-  text-transform: inherit;
+.arrowLeft h3{
+  font-size: 14px;
+  color: gray;
 }

@@ -8,8 +8,8 @@ export default function AudioAmbiental() {
     <BasicLayout relative>
 
       <Service
-        link1='Servicios'
-        link2='Audio Ambiental'
+        services='Servicios'
+        service='Audio Ambiental'
 
         img='/img/services/bocina/bocinakit.webp' 
 

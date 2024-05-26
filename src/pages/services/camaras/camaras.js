@@ -7,8 +7,8 @@ export default function Camaras() {
     <BasicLayout relative>
 
       <Service
-        link1='Servicios'
-        link2='Cámaras'
+        services='Servicios'
+        service='Cámaras'
 
         img='/img/services/cam/camkit.webp' 
 

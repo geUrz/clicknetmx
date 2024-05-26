@@ -1,19 +1,24 @@
 .description{
   padding: 0 10px;
-  margin-top: 50px;
+  margin: 50px 10px 0 10px;
   width: 350px;
-  height: 450px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: linear-gradient(rgba(17, 80, 218, 0.8), rgba(26, 26, 26, 0.8)), url("/img/services/1.jpeg");
+  background-image: linear-gradient(rgba(17, 80, 218), rgb(0, 47, 150));
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 5px;
-  cursor: pointer;
+  transition: .5s;
+}
+
+.description:hover{
+  width: 350px;
+  height: 520px;
 }
 
 .description img{
@@ -25,7 +30,10 @@
   font-size: 30px;
   font-family: 'Bebas' !important;
   color: white;
-  cursor: pointer;
+}
+
+.description p{
+  display: none;
 }
 
 .description svg, .description path{
@@ -34,16 +42,19 @@
   cursor: pointer;
 }
 
-.description p{
+.description:hover p{
   padding: 0 10px;
   margin-top: 10px;
   font-size: 16px;
   color: white;
   display: flex;
-  cursor: pointer;
 }
 
 .description a{
+  display: none;
+}
+
+.description:hover a{
   padding: 5px 8px;
   color: white;
   display: flex;
@@ -64,11 +75,3 @@
   cursor: pointer;
 }
 
-
-@media screen and (min-width: 1020px){
-
-  .description{
-    margin: 50px 30px;
-  }
-
-} 

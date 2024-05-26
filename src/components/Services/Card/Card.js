@@ -11,34 +11,26 @@ export function Card(props) {
   const [open, setOpen] = useState(false)
 
   const openCard = () => {
-    setOpen(prevState => !prevState)
+    //setOpen(prevState => !prevState)
+    setOpen(true)
   }
 
   return (
 
-    <div
-      /* onClick={openCard} */
-      class={
-        open
-          ? ''
-          : `${styles.description}`
-      }
-    >
+      <div class={styles.description} onClick={openCard}>
       <Image src={`${img}`} />
-      <h1>{titulo}</h1>
+        <h1>{titulo}</h1>
 
-      {/* {open ?
-        <FaChevronUp /> :
-        <FaChevronDown />
-      } */}
+        {open ?
+          <FaChevronUp /> :
+          <FaChevronDown />
+        }
 
-
-      <p>{description}</p>
-      <Link href={`${link}`}>
-        ver mas <FaChevronRight className={styles.arrowRight} />
-      </Link>
-
-    </div>
+        <p>{description}</p>
+        <Link href={`${link}`}>
+          ver mas <FaChevronRight className={styles.arrowRight} />
+        </Link>
+      </div>
 
   )
 }

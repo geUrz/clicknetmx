@@ -1,6 +1,4 @@
 import { Card } from '../Card'
-import { CardB } from '../CardB'
-import { CardS } from '../CardS'
 import styles from './Descriptions.module.css'
 
 export function Descriptions() {
@@ -31,42 +29,42 @@ export function Descriptions() {
           link='/services/canalizacion-y-tuberia'
         />
 
-        <CardS
+        <Card
           img='/img/services/cam/cam.webp'
           titulo='Cámaras de vigilancia'
           description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
           link='/services/camaras'
         />
 
-        <CardS
+        <Card
           img='/img/services/alarma/alarma.webp'
           titulo='Alarma de seguridad'
           description='Configuración y optimización de redes locales para que cualquier equipo que se conecte a internet funcione correctamente y el WiFi cubra las zonas donde se necesite.'
           link='/services/alarma'
         />
 
-        <CardS
+        <Card
           img='/img/services/control/control.webp'
           titulo='Control de acceso'
           description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
           link='/services/control-de-acceso'
         />
 
-        <CardB
+        <Card
           img='/img/services//cerco/cerco.webp'
           titulo='Cerco electrificado'
           description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
           link='/services/cerco-electrificado'
         />
 
-        <CardB
+        <Card
           img='/img/services/bocina/bocina.webp'
           titulo='Audio ambiental'
           description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
           link='/services/audio-ambiental'
         />
 
-        <CardB
+        <Card
           img='/img/services/'
           titulo='Automatización de equipos eléctricos'
           description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
@@ -79,7 +77,7 @@ export function Descriptions() {
           description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'
         /> */}
 
-        <CardB
+        <Card
           img='/img/services/cam.webp'
           titulo='Cámaras de vigilancia'
           description='Instalación de cableado de voz, datos, señal y eléctrico, hacemos un estudio para saber si el cableado existente esta en buenas condiciones y cumple con las normas establecidas.'

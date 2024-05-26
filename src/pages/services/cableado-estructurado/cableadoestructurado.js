@@ -7,8 +7,8 @@ export default function Cableadoestructurado() {
     <BasicLayout relative>
 
       <Service 
-        link1='Servicios'
-        link2='Cableado estructurado'
+        services='Servicios'
+        service='Cableado estructurado'
 
         img='/img/services/cable/cablekit.webp'
 

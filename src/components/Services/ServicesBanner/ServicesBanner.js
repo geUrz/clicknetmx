@@ -1,12 +1,7 @@
-import { FaDoorOpen, FaTools, FaWifi } from 'react-icons/fa'
-import { BiSolidCctv, BiSolidShield } from 'react-icons/bi'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 import styles from './ServicesBanner.module.css'
 
 export function ServicesBanner() {
-
-  const router = useRouter()
 
   return (
 

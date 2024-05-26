@@ -8,8 +8,8 @@ export default function CercoElectrificado() {
     <BasicLayout relative>
 
       <Service
-        link1='Servicios'
-        link2='Cerco Electrificado'
+        services='Servicios'
+        service='Cerco Electrificado'
 
         img='/img/services/cerco/cercokit.webp' 
 

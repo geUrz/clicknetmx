@@ -7,8 +7,8 @@ export default function CanalizacionyTuberia() {
     <BasicLayout relative>
 
       <Service
-        link1='Servicios'
-        link2='Canalización y tubería'
+        services='Servicios'
+        service='Canalización y tubería'
 
         img='/img/services/canal/tuberiakit.webp' 
 
