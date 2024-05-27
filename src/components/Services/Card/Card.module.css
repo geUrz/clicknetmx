@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: linear-gradient(rgba(17, 80, 218), rgb(0, 47, 150));
+  background-image: linear-gradient(rgba(17, 80, 218), rgb(0, 41, 129));
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,6 +19,7 @@
 .description:hover{
   width: 350px;
   height: 520px;
+  background-image: linear-gradient(rgba(17, 80, 218), rgb(17, 80, 218));
 }
 
 .description img{

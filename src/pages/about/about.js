@@ -1,5 +1,5 @@
 import { BasicLayout } from '@/layouts'
-import { Description } from '@/components/About'
+import { Description, Abouts } from '@/components/About'
 import { Image } from 'semantic-ui-react'
 import styles from './about.module.css'
 
@@ -13,6 +13,8 @@ export default function About() {
       </div>
 
       <Description />
+
+      <Abouts />
 
     </BasicLayout>
 

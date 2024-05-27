@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from './ServicesBanner.module.css'
+import { FaChevronRight } from 'react-icons/fa'
 
 export function ServicesBanner() {
 

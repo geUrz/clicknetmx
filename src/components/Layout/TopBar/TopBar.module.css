@@ -130,6 +130,18 @@
     display: none;
   }
 
+  .logo{
+    margin-left: 40px;
+  }
+
+  .logo img{
+    height: 46px;
+  }
+
+  .containerMenu{
+    height: 80px;
+  }
+
   .menu{
     width: 50%;
     max-width: 600px;

@@ -36,37 +36,8 @@
   cursor: pointer;
 }
 
-.services{
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  bottom: -20px;
-  cursor: pointer;
-}
 
-.services div{
-  margin: 0 10px;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--color-2);
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.services svg, .services path{
-  font-size: 30px;
-  color: white;
-  cursor: pointer;
-}
-
-
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
 
   .title{
     display: flex;
@@ -87,14 +58,31 @@
     font-size: 55px;
   }
 
-  .services div{
-    margin: 0 20px;
-    width: 75px;
-    height: 75px;
+}
+
+@media screen and (min-width: 1024px){
+
+  .container{
+    height: 350px;
+  } 
+
+  .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .services svg, .services path{
-    font-size: 35px;
+  .title h1{
+    font-size: 45px;
+  }
+  
+  .title h2{
+    margin: 0 5px !important;
+    font-size: 45px;
+  }
+  
+  .title h1:nth-child(3){
+    font-size: 55px;
   }
 
 }

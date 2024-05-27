@@ -2,3 +2,11 @@
   padding-top: 69px;
 } 
 
+@media screen and (min-width: 1024px) {
+
+  .relative{
+    padding-top: 79px;
+  } 
+
+}
+
